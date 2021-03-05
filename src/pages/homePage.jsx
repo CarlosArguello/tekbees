@@ -43,7 +43,7 @@ const HomePage = () => {
         })
     },[])
 
-    if(!products.length) return null
+    if(!products.length) return <h1 className="text-5xl text-center my-16">Registra un producto</h1>
 
     return(
         <Container>
